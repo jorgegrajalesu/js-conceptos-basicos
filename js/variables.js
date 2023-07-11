@@ -12,4 +12,4 @@ const casado = false; // tipo boolean
 
 edad = 96;
 
-console.log(edad);
+console.table('Mi edad es: ' + edad, 'Casado: ' + casado, 'Mi nombre ' + miNombre);
