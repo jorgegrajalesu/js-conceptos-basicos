@@ -39,6 +39,7 @@ let pelicula={
     Estreno: '29 de junio de 2023',
     Director: 'James Mangold',
     Presupuesto: 300000000,
+    // arreglo llamado actores
     actores:['Antonio Banderas','Phoebe M','Boyd H','Thomas K'],
 };
 
@@ -46,4 +47,4 @@ console.warn('Pelicula');
 console.table(pelicula);
 
 // cuántos actores hay en el objeto de pelicula
-console.log('Los actores son: ', )
+console.log('Los actores son: ', pelicula.actores.length);
