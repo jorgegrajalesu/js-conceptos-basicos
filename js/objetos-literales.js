@@ -25,3 +25,25 @@ auto.tipoAuto2 = 'Familiar-GamaAlta';
 console.log(auto);
 
 // eliminar una propiedad del objeto
+delete auto.tipoAuto;
+console.log(auto);
+
+// crear un objeto literal para determimar las propiedades de una película
+
+let pelicula={
+    nombre: 'Indiana Jones 5',
+    actor1: 'Antonio Banderas',
+    actor2: 'Phoebe M',
+    actor3: 'Boyd H',
+    actor4: 'Thomas K',
+    Estreno: '29 de junio de 2023',
+    Director: 'James Mangold',
+    Presupuesto: 300000000,
+    actores:['Antonio Banderas','Phoebe M','Boyd H','Thomas K'],
+};
+
+console.warn('Pelicula');
+console.table(pelicula);
+
+// cuántos actores hay en el objeto de pelicula
+console.log('Los actores son: ', )
