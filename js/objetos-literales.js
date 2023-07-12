@@ -48,3 +48,7 @@ console.table(pelicula);
 
 // cuántos actores hay en el objeto de pelicula
 console.log('Los actores son: ', pelicula.actores.length);
+
+// anexar una propiedad para el objeto pelicula, en que salas
+pelicula.Salas = ['Viva','Mayorca','Florida','Los Puentes'];
+console.log(pelicula);
