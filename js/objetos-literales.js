@@ -17,3 +17,11 @@ console.table(auto);
 console.warn('Mostrar el nombre del auto');
 console.log('Nombre: ', auto.nombre);
 console.log('Precio y el color: ', auto['precio'],auto['color']);
+
+// crear una nueva propiedad para el objeto
+auto.tipoAuto = 'Familiar';
+auto.tipoAuto1 = 'Familiar-GamaBaja';
+auto.tipoAuto2 = 'Familiar-GamaAlta';
+console.log(auto);
+
+// eliminar una propiedad del objeto
