@@ -37,4 +37,12 @@ const Num_2 = 20;
 const Num_3 = 60;
 const prod = Num_1 * Num_2 * Num_3;
 
-console.log(`La resta es: ${prod}`);//concatenacion con block tic
+console.log(`EL multiplicación es: ${prod}`);//concatenacion con block tic
+
+// division
+const op_1 = 20;
+const op_2 = 20;
+const op_3 = 60;
+const division = op_1 / op_2 / op_3;
+
+console.log(`La división es: ${division}`);//concatenacion con block tic
