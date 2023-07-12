@@ -10,6 +10,14 @@ const miNombre = 'Jorge'; // tipo string
 
 const casado = false; // tipo boolean
 
-edad = 96;
+// edad = 96;
 
 console.table('Mi edad es: ' + edad, 'Casado: ' + casado, 'Mi nombre ' + miNombre);
+
+// operadores mat
+
+const num1 = 20;
+const num2 = 20;
+const suma = num1 + num2;
+
+console.log(`La suma es: ${suma}`);//concatenacion con block tic
