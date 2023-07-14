@@ -51,6 +51,13 @@ const suma = (operador1,operador2,operador3) => {
 
 console.log('la suma es: ' + suma(5,2,5));
 
+// funcion para unificar los nombre
+const unirNombre = (nombre1,nombre2) => {
+    return nombre1 + nombre2;
+
+}
+
+console.log('Mi nombre es: ' + unirNombre('Jorge',' Enrique'));
 
 
 
