@@ -31,6 +31,26 @@ function miEdad(edad){
 
 miEdad(35);
 
+// función de flecha sin argumentos
+
+const estadoCivil = () => {
+    console.log(`Mi estado civil: ${'soltero'}`);
+   
+};
+
+estadoCivil();
+
+// ejemplo: crear la suma de dos numeros utilizando funcion de flecha
+
+const suma = (operador1,operador2,operador3) => {
+    return operador1 + operador2 + operador3;
+
+};
+
+// llamar la funcion suma
+
+console.log('la suma es: ' + suma(5,2,5));
+
 
 
 
