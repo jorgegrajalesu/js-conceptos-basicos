@@ -1,4 +1,4 @@
-# js-conceptos-basicos
+# js-conceptos-basicos -  Grupo 3
 Conceptos básicos en JavaScript
 1. comentarios
 2. hola-mundo
