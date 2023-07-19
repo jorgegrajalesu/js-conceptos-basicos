@@ -41,3 +41,64 @@ if (dia ==='martes' && asig2 === 'frontend' && asig === 'habilidades') {
 }
 
 // condicional llamado switch
+// ejemplo4: Determinar las actividades habituales de acuerdo a los dias de la semana.
+
+console.warn('condicional switch');
+const diaSemana = 2;//es lunes
+
+switch (diaSemana) {
+    case 0:
+        console.log("Dia Semana: " + 'Domingo');
+        console.log("ciclovia ");
+        console.log("voy a cine ");
+        
+        break;
+    case 1:
+        console.log("Dia Semana: " + 'Lunes');
+        console.log("Estudiar  ");
+        console.log("Trabajar ");
+        console.log("Doy clases al grupo 3 ");
+        
+        break;
+    case 2:
+        console.log("Dia Semana: " + 'Martes');
+        console.log("Estudiar  ");
+        console.log("Trabajar ");
+        console.log("Doy clases al grupo 3 ");
+        
+        break;
+    case 3:
+        console.log("Dia Semana: " + 'Miercoles');
+        console.log("Estudiar  ");
+        console.log("Trabajar ");
+        console.log("Doy clases al grupo 2 y 5 ");
+        
+        break;
+    case 4:
+        console.log("Dia Semana: " + 'Jueves');
+        console.log("Estudiar  ");
+        console.log("Trabajar ");
+        console.log("Doy clases al grupo 1 y 3 ");
+        
+        break;
+    case 5:
+        console.log("Dia Semana: " + 'Viernes');
+        console.log("Estudiar  ");
+        console.log("Trabajar ");
+        console.log("Doy clases al grupo 2 y 5 ");
+        
+        break;
+    case 6:
+        console.log("Dia Semana: " + 'Sabado');
+        console.log("Estudiar  ");
+        console.log("Trabajar ");
+        console.log("tomarme unas politas en la noche ");
+        
+        break;
+
+    default:
+        console.log("Dia Semana: " + 'no encontrado');
+        break;
+}
+
+
