@@ -103,7 +103,7 @@ switch (diaSemana) {
 
 // ejemplo5: Determinar los eventos de la feria de las flores
 
-const diaEvento = 'Lunes';
+const diaEvento = 'Jueves';
 
 switch (diaEvento) {
     case 'Viernes':
