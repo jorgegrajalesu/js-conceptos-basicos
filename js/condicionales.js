@@ -39,3 +39,5 @@ if (dia ==='martes' && asig2 === 'frontend' && asig === 'habilidades') {
 }else{
     console.log('No son los profes');
 }
+
+// condicional llamado switch
