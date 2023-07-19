@@ -101,4 +101,25 @@ switch (diaSemana) {
         break;
 }
 
+// ejemplo5: Determinar los eventos de la feria de las flores
 
+const diaEvento = 'Lunes';
+
+switch (diaEvento) {
+    case 'Viernes':
+        console.log('Apertura de la feria' + 'Viernes 28/07/23')
+        
+        break;
+    case 'Sabado':
+        console.log('FERIA A RITMO DE BICICLETA' + 'Sabado 29/07/23')
+        
+        break;
+    case 'Domingo':
+        console.log('FERIA A RITMO DE BICICLETA' + 'Domingo 30/07/23')
+        
+        break;
+
+    default:
+        console.log('Evento no encontrado');
+        break;
+}
