@@ -44,7 +44,7 @@ if (dia ==='martes' && asig2 === 'frontend' && asig === 'habilidades') {
 // ejemplo4: Determinar las actividades habituales de acuerdo a los dias de la semana.
 
 console.warn('condicional switch');
-const diaSemana = 2;//es lunes
+const diaSemana = 6;
 
 switch (diaSemana) {
     case 0:
